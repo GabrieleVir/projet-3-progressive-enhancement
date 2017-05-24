@@ -1,0 +1,67 @@
+body {
+	width:60%;	
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+header article {
+	width:100%;
+}
+
+.raison_publi {
+	font-size:14px;
+	margin:0;
+	color: rgba(0,0,0,.44);
+}
+
+header p {
+	margin:0;
+}
+
+p {
+	line-height: 1.58;
+	font-size:21px;
+	font-family: 'Tinos', serif;
+}
+
+img {
+	width: 100%;
+}
+
+.titre{
+	font-family: 'Arimo', sans-serif;
+	font-size:40px;
+	font-weight: 700;
+	margin-left: -2.5px;
+	line-height: 1.04;
+	color:rgba(0,0,0,.8);
+}
+
+.auteur {
+	text-decoration: none;
+	color:rgba(0,0,0,.66);
+}
+
+.auteur:hover {
+	color:rgba(0,0,0,.9);
+}
+
+.premier_mot {
+	color:rgba(0,0,0,.7);
+	font-size: 62px;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: -.03em;
+	line-height: .83;
+    margin-left: -5px;
+    margin-right: 17px;
+    margin-bottom: -10px;
+	padding-top: 10px;
+}
+
+/*display du premier mot */
+.premier_mot {
+    display: block;
+    position: relative;
+    float: left;
+}

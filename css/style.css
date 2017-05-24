@@ -1,0 +1,135 @@
+
+
+body {
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: #7b9095; /* steel grey color */
+    background: linear-gradient(16deg, rgb(123, 144, 149), rgb(100, 93, 85));
+	background-image: url("../img/Metal-b.jpg");
+	background-size:100% 100%;
+	background-position:center;
+	background-repeat: no-repeat;
+	
+}
+
+p, q, blockquote {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.titre {	
+    font-family: 'Roboto Slab', serif;
+
+}
+
+p, .l-list, table {
+	color:#080844;
+	font-size: 110%;
+	line-height: 180%;
+}
+
+.l-dialogue {
+	line-height: 180%;
+	font-size: 85%;
+}
+
+a {
+	color:#5B5EA0;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#2B33CA;
+}
+
+a:visited {
+	color:#189191;
+}
+
+
+.quote {
+	display: block; /* pour que <q> soit traité comme un block */
+	color:#080844;
+	text-align: center;
+	width: 50%;
+	margin-left: 22%;
+	font-size: 160%;
+	text-shadow: 1px 1px grey;
+	border-left:3px solid #842E1B;
+	padding-left: 5%;
+	margin-top: 8% ;
+	margin-bottom:8%;
+	font-style: italic;
+}
+
+.villageois {
+	border-left:2px solid #5ABC77;
+	padding-left: 1%;
+}
+
+.fermier {
+	border-left: 2px solid #04196E;
+	padding-left: 1%;
+}
+
+header h1 {
+	background-color: #7b9095; /* steel grey color */
+    background: linear-gradient(16deg, rgb(123, 144, 149), rgb(100, 93, 85)); 
+}
+
+.bien {
+	text-transform: uppercase;
+	color:green;
+}
+
+.mal {
+	text-transform: uppercase;
+	color:red;
+}
+
+.gris {
+	background-color: grey;
+}
+
+.blanc {
+	background-color: white;
+}
+
+article .first-p {
+	font-weight: bold;
+}
+
+.l1 {
+	padding-top: 4.5%;
+	padding-bottom: 2%;
+	background-image: url("../img/bien.png");
+	background-repeat: no-repeat;
+	background-position: 40%;
+
+}
+
+.l2 {
+	padding-top: 4.5%;
+	padding-bottom: 2%;
+	background-image: url("../img/mal.png");
+	background-repeat: no-repeat;
+	background-position: 40%;
+
+}
+
+.l3 {
+	padding-top: 4.5%;
+	padding-bottom: 2%;
+	background-image: url("../img/chat.png");
+	background-repeat: no-repeat;
+	background-position: 45%;
+
+}
+
+
+.l4 {
+	padding-top: 4.5%;
+	padding-bottom: 2%;
+	
+}
+
