@@ -27,11 +27,13 @@
 			<p>
 		        Une manière simple pour calculer la justification est d 'utiliser la méthode de Robert Bringhurst, qui multiplie la taille de la police par 30. Si la taille de la police est de 10px, la multiplier par 30 vous donne une justification de 300px ou environ 65 caractères par ligne. Le code ressemblerait à quelque chose comme:
 			</p>
-			<code class="css">
-				p {
-				  font-size: 10px;
-				  max-width: 300px;
-				}
+			<code class="bout_code">
+				<pre>
+p {
+  font-size: 10px;
+  max-width: 300px;
+}
+				</pre>
 			</code>
 		<h2 class="titre">Interlignage</h2>
 			<p>
@@ -43,12 +45,14 @@
 			<p>
       			Obtenir le bon espacement demande un peu de finesse, mais voici un exemple de ce à quoi le code pourrait ressembler:
 			</p>
-			<code class="css">
-				body {
-				  font-family: Helvetica, sans-serif;
-				  font-size: 12px;
-				  line-height: 16px;
-				}
+			<code class="bout_code">
+				<pre>
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+}
+				</pre>
 			</code>
 		<h2 class="titre">Ponctuation flottante</h2>
 			<p>
@@ -58,11 +62,13 @@
 			<p>
 		        Ce résultat est obtenu très facilement avec CSS en utilisant l 'élément blockquote:
 			</p>
-			<code class="css">
-				blockquote {
-				  text-indent: -0.8em;
-				  font-size: 12px;
-				}
+			<code class="bout_code">
+				<pre>
+blockquote {
+  text-indent: -0.8em;
+  font-size: 12px;
+}
+				</pre>
 			</code>
 			<p>
 		        L 'indentation négative dépendra de la police, de la taille de la fonte et des marges utilisées.		
@@ -75,15 +81,17 @@
 			<p>
         		Pour conserver un rythme vertical en CSS il faut que l 'espacement entre les éléments et l 'interlignage soient égaux à la taille de la grille de référence. Par exemple, disons que vous utilisez une grille de référence de 15px, ce qui signifie qu 'il y a 15px entre chaque ligne de base. L 'interlignage serait de 15px et l 'espace entre chaque paragraphe serait également de 15px. Voici un exemple:
 			</p>
-			<code class="css">
-				body {
-				  font-family: Helvetica, sans-serif;
-				  font-size: 12px;
-				  line-height: 15px;
-				}
-				p {
-				  margin-bottom: 15px;
-				}
+			<code class="bout_code">
+				<pre>
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+}
+p {
+  margin-bottom: 15px;
+}
+				</pre>
 			</code>
 			<p>
 		        Cela permet à chaque paragraphe de s 'aligner sur la grille et ainsi de conserver le rythme vertical du texte.		
@@ -107,19 +115,21 @@
 			<p>
 		        Voici quelques manières différentes de créer une emphase en CSS:
 			</p>
-			<code class="css">
-				span {
-				  font-variant: small-caps;
-				}
-				h1 {
-				  font-style: italic;
-				}
-				h2 {
-				  text-transform: uppercase;
-				}
-				a {
-				  text-decoration: underline;
-				}
+			<code class="bout_code">
+				<pre>
+span {
+  font-variant: small-caps;
+}
+h1 {
+  font-style: italic;
+}
+h2 {
+  text-transform: uppercase;
+}
+a {
+  text-decoration: underline;
+}
+				</pre>
 			</code>
 			<p>
 		        Gardez à l 'esprit que le style font-variant ne fonctionne que si la police choisie supporte la variante small-caps (petites capitales).
@@ -132,28 +142,30 @@
 			<p>
 		        Voici un exemple d 'échelle typographique définie en CSS:
 			</p>
-			<code class="css">
-				h1 {
-				  font-size: 48px;
-				}
-				h2 {
-				  font-size: 36px;
-				}
-				h3 {
-				  font-size: 24px;
-				}
-				h4 {
-				  font-size: 21px;
-				}
-				h5 {
-				  font-size: 18px;
-				}
-				h6 {
-				  font-size: 16px;
-				}
-				p {
-				  font-size: 14px;
-				}
+			<code class="bout_code">
+				<pre>
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 21px;
+}
+h5 {
+  font-size: 18px;
+}
+h6 {
+  font-size: 16px;
+}
+p {
+  font-size: 14px;
+}
+				</pre>
 			</code>
 		<h2 class="titre">De beaux drapeaux</h2>
 			<p>
